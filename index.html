@@ -25,6 +25,11 @@
         <a href="./index.html" class="header-logo"
           ><span class="header-span">Web</span>Studio</a
         >
+        <button type="button" class="menu-btn">
+          <svg class="menu-btn-icon" width="24" height="24">
+            <use href="./images/icons.svg#burger-menu" />
+          </svg>
+        </button>
         <nav class="header-nav">
           <ul class="header-nav-list">
             <li class="header-nav-item">
@@ -126,6 +131,7 @@
             <li class="team-list-item">
               <img
                 src="./images/team-1.jpg"
+                srcset="./images/team-1.jpg 1x, ./images/team-1-2x.jpg 2x"
                 alt="Mark Guerrero"
                 width="264"
                 height="260"
@@ -169,6 +175,7 @@
             <li class="team-list-item">
               <img
                 src="./images/team-2.jpg"
+                srcset="./images/team-2.jpg 1x, ./images/team-2-2x.jpg 2x"
                 alt="Tom Ford"
                 width="264"
                 height="260"
@@ -212,6 +219,7 @@
             <li class="team-list-item">
               <img
                 src="./images/team-3.jpg"
+                srcset="./images/team-3.jpg 1x, ./images/team-3-2x.jpg 2x"
                 alt="Camila Garcia"
                 width="264"
                 height="260"
@@ -255,6 +263,7 @@
             <li class="team-list-item">
               <img
                 src="./images/team-4.jpg"
+                srcset="./images/team-4.jpg 1x, ./images/team-4-2x.jpg 2x"
                 alt="Daniel Wilson"
                 width="264"
                 height="260"
@@ -307,6 +316,10 @@
               <div class="portfolio-img-wrapper">
                 <img
                   src="./images/portfolio-1.jpg"
+                  srcset="
+                    ./images/portfolio-1.jpg    1x,
+                    ./images/portfolio-1-2x.jpg 2x
+                  "
                   alt="Banking App"
                   width="360"
                   height="300"
@@ -327,6 +340,10 @@
               <div class="portfolio-img-wrapper">
                 <img
                   src="./images/portfolio-2.jpg"
+                  srcset="
+                    ./images/portfolio-2.jpg    1x,
+                    ./images/portfolio-2-2x.jpg 2x
+                  "
                   alt="Banking App"
                   width="360"
                   height="300"
@@ -347,6 +364,10 @@
               <div class="portfolio-img-wrapper">
                 <img
                   src="./images/portfolio-3.jpg"
+                  srcset="
+                    ./images/portfolio-3.jpg    1x,
+                    ./images/portfolio-3-2x.jpg 2x
+                  "
                   alt="Meditation App"
                   width="360"
                   height="300"
@@ -367,6 +388,10 @@
               <div class="portfolio-img-wrapper">
                 <img
                   src="./images/portfolio-4.jpg"
+                  srcset="
+                    ./images/portfolio-4.jpg    1x,
+                    ./images/portfolio-4-2x.jpg 2x
+                  "
                   alt="Taxi Service"
                   width="360"
                   height="300"
@@ -387,6 +412,10 @@
               <div class="portfolio-img-wrapper">
                 <img
                   src="./images/portfolio-5.jpg"
+                  srcset="
+                    ./images/portfolio-5.jpg    1x,
+                    ./images/portfolio-5-2x.jpg 2x
+                  "
                   alt="Screen Illustrations"
                   width="360"
                   height="300"
@@ -407,6 +436,10 @@
               <div class="portfolio-img-wrapper">
                 <img
                   src="./images/portfolio-6.jpg"
+                  srcset="
+                    ./images/portfolio-6.jpg    1x,
+                    ./images/portfolio-6-2x.jpg 2x
+                  "
                   alt="Online Courses"
                   width="360"
                   height="300"
@@ -475,10 +508,17 @@
         <div class="footer-right">
           <p class="footer-subscribe-text">Subscribe</p>
           <form class="footer-form">
-            <input type="email" name="mail" id="mail" class="footer-form-input" placeholder="E-mail">
-            <button type="submit" class="footer-subscribe-btn">Subscribe
+            <input
+              type="email"
+              name="mail"
+              id="mail"
+              class="footer-form-input"
+              placeholder="E-mail"
+            />
+            <button type="submit" class="footer-subscribe-btn">
+              Subscribe
               <svg width="24" height="24" class="footer-subscribe-icon">
-                <use href="./images/icons.svg#send"/>
+                <use href="./images/icons.svg#send" />
               </svg>
             </button>
           </form>
@@ -574,6 +614,70 @@
 
           <button type="submit" class="modal-form-btn">Send</button>
         </form>
+      </div>
+    </div>
+
+    <div class="mobile-menu">
+      <button type="button" class="menu-close-btn">
+        <svg width="8" height="8" class="menu-close-icon">
+          <use href="./images/icons.svg#close" />
+        </svg>
+      </button>
+      <ul class="menu-nav-list">
+        <li class="menu-nav-item">
+          <a href="#studio" class="menu-nav-link current">Studio</a>
+        </li>
+        <li class="menu-nav-item">
+          <a href="#portfolio" class="menu-nav-link">Portfolio</a>
+        </li>
+        <li class="menu-nav-item">
+          <a href="#contacts" class="menu-nav-link">Contacts</a>
+        </li>
+      </ul>
+
+      <div class="menu-contact-wrap">
+        <ul class="menu-contact-list">
+          <li class="menu-contact-item">
+            <a href="tel:+110001111111" class="menu-contact-link current"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+          <li class="menu-contact-item">
+            <a href="mailto:info@devstudio.com" class="menu-contact-link"
+              >info@devstudio.com</a
+            >
+          </li>
+        </ul>
+        <ul class="menu-list-socials">
+          <li class="menu-socials-item">
+            <a href="#" class="menu-socials-link">
+              <svg width="24" height="24" class="icon-socials">
+                <use href="./images/icons.svg#instagram" />
+              </svg>
+            </a>
+          </li>
+          <li class="menu-socials-item">
+            <a href="#" class="menu-socials-link">
+              <svg width="24" height="24" class="icon-socials">
+                <use href="./images/icons.svg#twitter" />
+              </svg>
+            </a>
+          </li>
+          <li class="menu-socials-item">
+            <a href="#" class="menu-socials-link">
+              <svg width="24" height="24" class="icon-socials">
+                <use href="./images/icons.svg#facebook" />
+              </svg>
+            </a>
+          </li>
+          <li class="menu-socials-item">
+            <a href="#" class="menu-socials-link">
+              <svg width="24" height="24" class="icon-socials">
+                <use href="./images/icons.svg#linkedin" />
+              </svg>
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
   </body>
