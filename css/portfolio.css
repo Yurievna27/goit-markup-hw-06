@@ -104,6 +104,9 @@
   }
 }
 @media only screen and (min-width: 1158px) {
+  .portfolio-list {
+    gap: 48px 24px;
+  }
   .portfolio-list-item {
     width: 360px;
   }
