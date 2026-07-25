@@ -1,6 +1,5 @@
 .features-list {
   display: flex;
-  align-items: center;
   gap: 72px 24px;
   flex-direction: column;
 }
@@ -31,7 +30,6 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  max-width: 264px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -43,6 +41,9 @@
     width: calc((100% - 24px) / 2);
     align-items: flex-start;
     justify-content: flex-start;
+  }
+  .features-list-title {
+    text-align: left;
   }
   .features-list-text {
     max-width: 356px;

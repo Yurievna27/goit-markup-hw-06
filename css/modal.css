@@ -257,6 +257,7 @@
   .modal {
     max-width: 408px;
     max-height: 584px;
+    padding: 72px 24px 24px;
   }
   .modal-text {
     max-width: 360px;
@@ -269,12 +270,5 @@
   }
   .modal-checkbox-label {
     max-width: 360px;
-  }
-}
-
-@media only screen and (min-width: 1158px) {
-  .modal {
-    padding: 24px;
-    padding-top: 72px;
   }
 }

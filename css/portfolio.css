@@ -94,6 +94,7 @@
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: row;
+    gap: 72px 24px;
   }
   .portfolio-list-item {
     width: 356px;
